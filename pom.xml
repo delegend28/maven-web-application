@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.90.165.190:8081/repository/tes-pipeline/</url>
+	      <url>http:http://54.91.2.17:8081/repository/javawebapp/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.90.165.190:8081/repository/tes-pipelinesnap/</url>
+	      <url>http://54.91.2.17:8081/repository/javawebappsnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
