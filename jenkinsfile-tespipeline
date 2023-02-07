@@ -28,6 +28,7 @@ node{
  stage('8Notification'){
     // Pipeline Syntax 
     emailext body: '''the following is the present state of our build.
+    
 
 Regards,
 joe''', recipientProviders: [developers(), contributor()], subject: 'build status', to: 'joey.ayodeji@gmail.com'
